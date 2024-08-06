@@ -15,3 +15,11 @@ Start execution from Programe.cs
   -  It allows developers to use JSON format for the configurations instead of code
 5. Programe.cs
   - is an entry point of an application  
+
+
+Inside Programe.cs File
+var builder = WebApplication.CreateBuilder(args);
+CreateBuilder() method setup the internal web server which is Kestrel.It also specifies the content root and read application settings file appsettings.json
+
+using builder object dependency injection, middleware, and hosting environment
+
