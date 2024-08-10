@@ -141,4 +141,32 @@ so Run does not execute next middleware and use execute multipale middleware.
    this is a best way
    ![image](https://github.com/user-attachments/assets/5a1963a3-3f09-45d8-9517-d40251b1590c)
 
+
+   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+   Map, httpMethod -> MapGet, MepPost, MapPut, MapDelete
+   Default Get Method
+   ![image](https://github.com/user-attachments/assets/069bfa7b-375e-48e1-a4e4-768fa943087d)
+   Above is use for return Single line string
+
+   Better and use full way is in Programe.cs file
+   ![image](https://github.com/user-attachments/assets/85e3b61e-6f0c-42b7-9765-ae1e6b43b464)
+
+   ![image](https://github.com/user-attachments/assets/3ddb3dfb-603b-451a-a67f-486d338f10f0)
+
+
+   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   ##**Controller**
+   controller is use to definr set of action method
+   is a backbone of MVC
+   recommended that class name of a controller ends with suffix 'Controller'
+   **Microsoft.AspNetCore.Mvc** contain controller class so extend this namespace when create controller
+   ![image](https://github.com/user-attachments/assets/4d5e9071-2eac-4a71-ae82-5baf5eba119a)
+   ![image](https://github.com/user-attachments/assets/3398970b-7948-4a1c-a473-930e711375d6)
+   ![image](https://github.com/user-attachments/assets/568cb143-3849-4b0a-b01a-c66e54a4d7ab)
+
+
+   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   ##**Action Method**
    
