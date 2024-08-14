@@ -170,3 +170,48 @@ so Run does not execute next middleware and use execute multipale middleware.
    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    ##**Action Method**
    
+   Razor View
+   Razor View Provide a Syntax For Write Html Code Inside C# code
+   Razor Compiler Compile This HTML Page
+   ![image](https://github.com/user-attachments/assets/34f7c6c8-ebbd-4c30-b3cb-c902b169a30f)
+
+   ![image](https://github.com/user-attachments/assets/f6297eb0-e6f7-49fe-a108-a920f4e3f59a)
+
+
+   # LayoutView (Master View)
+   First Create this _Layout.cshtml file 
+   ![image](https://github.com/user-attachments/assets/e9e95ac0-d78d-431a-b381-087e9b231d45)
+
+   Import this file in child Component
+   Home.cshtml
+   ![image](https://github.com/user-attachments/assets/ec996f64-efc5-48f3-8413-bd0e0f19cc93)
+
+   **In this case Problem is In Every Child Component we have Insert Layout="" Properties**
+
+   Above Problem Solve using _ViewStart.cshtml
+   ![image](https://github.com/user-attachments/assets/03f0de1a-7f86-4f62-a5c1-32d83ef6a2d9)
+
+   ![image](https://github.com/user-attachments/assets/0c56af91-60dd-42d2-85f8-06b6fd35300e)
+
+   ![image](https://github.com/user-attachments/assets/22e16050-c305-4286-ae32-7ef71a0b68fc)
+
+   But in this case Problem is every child component insert this file
+   Higest Prorite given is child component
+
+   if not apply any layout file then
+   ![image](https://github.com/user-attachments/assets/ac808bda-2b39-4b41-a945-d6dc9f0322dc)
+
+   ![image](https://github.com/user-attachments/assets/96717cab-baa6-4800-9067-064f6ad7f1ec)
+
+   # Passing Data From Controller(Action method) to View
+   **ViewData, ViewBag, TempData, Strongly Typed View**
+
+   **1. ViewData**
+   ![image](https://github.com/user-attachments/assets/33910766-2bf9-4ca7-a846-871eefd27773)
+
+   ![image](https://github.com/user-attachments/assets/4bd582b7-0638-4710-9e82-a6c822d25f1f)
+
+   if we have pass data then Razor view does not reachognize so we have to type cast this
+   ![image](https://github.com/user-attachments/assets/ebc99efd-6ce2-43cc-97ac-df6c155fdd54)
+
+   Life of ViewData object exist only dyring the current request means if we redirect in home page to index page then inside index page does not access this ViewData 
